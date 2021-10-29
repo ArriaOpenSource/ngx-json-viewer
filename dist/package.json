@@ -1,1 +1,49 @@
-{"name":"ngx-json-viewer","version":"2.4.0","description":"JSON formatter / viewer for Angular 2/4/5/6/7+","keywords":["angular","json"],"author":"Vivo Xu <vivo@fancyber.com>","license":"MIT","repository":{"type":"git","url":"git+https://github.com/hivivo/ngx-json-viewer.git"},"bugs":{"url":"https://github.com/hivivo/ngx-json-viewer/issues"},"homepage":"https://github.com/hivivo/ngx-json-viewer#readme","$schema":"./node_modules/ng-packagr/package.schema.json","main":"bundles/ngx-json-viewer.umd.js","scripts":{"build":"ng-packagr -p package.json","pack:lib":"npm run build && npm pack ./dist","publish:lib":"npm run build && npm publish ./dist"},"peerDependencies":{"@angular/common":">=5.0.0","@angular/core":">=5.0.0","rxjs":">=5.5.2"},"devDependencies":{"@angular/common":"^5.2.2","@angular/compiler":"^5.2.2","@angular/compiler-cli":"^5.2.2","@angular/core":"^5.2.2","ng-packagr":"^1.6.0","node-sass":"^4.14.1","rxjs":"^5.5.6","typescript":"^2.6.2","zone.js":"^0.8.20"},"module":"ngx-json-viewer.es5.js","es2015":"ngx-json-viewer.js","typings":"ngx-json-viewer.d.ts","metadata":"ngx-json-viewer.metadata.json"}
+{
+  "name": "ngx-json-viewer",
+  "version": "2.4.0",
+  "description": "JSON formatter / viewer for Angular 2/4/5/6/7+",
+  "keywords": [
+    "angular",
+    "json"
+  ],
+  "author": "Vivo Xu <vivo@fancyber.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hivivo/ngx-json-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hivivo/ngx-json-viewer/issues"
+  },
+  "homepage": "https://github.com/hivivo/ngx-json-viewer#readme",
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "main": "bundles/ngx-json-viewer.umd.js",
+  "peerDependencies": {
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0",
+    "rxjs": ">=6.5.3"
+  },
+  "devDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/compiler": "^8.0.0",
+    "@angular/compiler-cli": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "@types/node": "12.20.20",
+    "ng-packagr": "^5.7.1",
+    "rxjs": "~6.5.3",
+    "typescript": "~3.5.1",
+    "zone.js": "~0.9.1"
+  },
+  "module": "fesm5/ngx-json-viewer.js",
+  "es2015": "fesm2015/ngx-json-viewer.js",
+  "esm5": "esm5/ngx-json-viewer.js",
+  "esm2015": "esm2015/ngx-json-viewer.js",
+  "fesm5": "fesm5/ngx-json-viewer.js",
+  "fesm2015": "fesm2015/ngx-json-viewer.js",
+  "typings": "ngx-json-viewer.d.ts",
+  "metadata": "ngx-json-viewer.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

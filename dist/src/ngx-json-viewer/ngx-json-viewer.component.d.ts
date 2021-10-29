@@ -17,5 +17,5 @@ export declare class NgxJsonViewerComponent implements OnChanges {
     ngOnChanges(): void;
     isExpandable(segment: Segment): boolean;
     toggle(segment: Segment): void;
-    private parseKeyValue(key, value);
+    private parseKeyValue;
 }
