@@ -16,22 +16,21 @@
     "url": "https://github.com/hivivo/ngx-json-viewer/issues"
   },
   "homepage": "https://github.com/hivivo/ngx-json-viewer#readme",
-  "main": "index.ts",
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "ngPackage": {
     "lib": {
       "entryFile": "index.ts"
     }
   },
+  "main": "index.ts",
   "scripts": {
     "build": "ng-packagr -p package.json",
     "pack:lib": "npm run build && npm pack ./dist",
     "publish:lib": "npm run build && npm publish ./dist"
   },
-  "dependencies": {},
   "peerDependencies": {
-    "@angular/core": ">=5.0.0",
     "@angular/common": ">=5.0.0",
+    "@angular/core": ">=5.0.0",
     "rxjs": ">=5.5.2"
   },
   "devDependencies": {
@@ -40,6 +39,7 @@
     "@angular/compiler-cli": "^5.2.2",
     "@angular/core": "^5.2.2",
     "ng-packagr": "^1.6.0",
+    "node-sass": "^4.14.1",
     "rxjs": "^5.5.6",
     "typescript": "^2.6.2",
     "zone.js": "^0.8.20"
