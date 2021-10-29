@@ -10,7 +10,8 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hivivo/ngx-json-viewer.git"
+    "url": "https://github.com/ArriaOpenSource/ngx-json-viewer.git",
+    "directory": "dist/"
   },
   "bugs": {
     "url": "https://github.com/hivivo/ngx-json-viewer/issues"
