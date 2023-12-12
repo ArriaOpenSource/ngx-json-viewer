@@ -29,5 +29,5 @@ export declare class NgxJsonViewerComponent implements OnChanges {
     private isExpanded;
     private decycle;
     static ɵfac: i0.ɵɵFactoryDeclaration<NgxJsonViewerComponent, never>;
-    static ɵcmp: i0.ɵɵComponentDeclaration<NgxJsonViewerComponent, "ngx-json-viewer", never, { "json": "json"; "expanded": "expanded"; "depth": "depth"; "restoreExpanded": "restoreExpanded"; "showTypeHeadings": "showTypeHeadings"; "_key": "_key"; "_previouslyOpenKeys": "_previouslyOpenKeys"; "_currentDepth": "_currentDepth"; }, {}, never, never>;
+    static ɵcmp: i0.ɵɵComponentDeclaration<NgxJsonViewerComponent, "ngx-json-viewer", never, { "json": { "alias": "json"; "required": false; }; "expanded": { "alias": "expanded"; "required": false; }; "depth": { "alias": "depth"; "required": false; }; "restoreExpanded": { "alias": "restoreExpanded"; "required": false; }; "showTypeHeadings": { "alias": "showTypeHeadings"; "required": false; }; "_key": { "alias": "_key"; "required": false; }; "_previouslyOpenKeys": { "alias": "_previouslyOpenKeys"; "required": false; }; "_currentDepth": { "alias": "_currentDepth"; "required": false; }; }, {}, never, never, false, never>;
 }
