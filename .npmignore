@@ -1,0 +1,5 @@
+./.github
+./example
+./src
+ng-package.json
+tsconfig.json

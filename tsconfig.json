@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "strictNullChecks": true,
     "noImplicitAny": true,
-    "module": "es2015",
+    "module": "ES2022",
     "moduleResolution": "node",
     "paths": {
       "@angular/core": ["node_modules/@angular/core"],
@@ -16,13 +16,13 @@
     "outDir": "dist",
     "sourceMap": true,
     "inlineSources": true,
-    "target": "es5",
+    "target": "ES2022",
     "skipLibCheck": true,
-    "lib": ["es2015", "dom"]
+    "lib": ["ES2022", "dom"]
   },
   "files": ["index.ts"],
   "angularCompilerOptions": {
     "strictMetadataEmit": true,
-    "enableIvy": true
+    "strictTemplates": true
   }
 }
